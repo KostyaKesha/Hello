@@ -7,7 +7,8 @@ public class Hello {
 
         System.out.println("Input name and press Enter");
         String name=sc.nextLine();
-        System.out.print ("Hello dear," + " " + name+"!");
+        System.out.println ("Hello dear," + " " + name+"!");
+        System.out.println ("Have a nice day!");
         sc.close();
 
     }
